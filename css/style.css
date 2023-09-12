@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+.drive-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.folder {
+    display: flex;    
+    padding: 10px;
+    border-bottom: 1px solid #ccc;    
+    justify-content: space-between;    
+    cursor: pointer;
+
+}
+.folder:hover {
+    background-color: #ACF5FF; /* Cambia el color de fondo al pasar el cursor sobre la carpeta */
+  }
+.folder-icon {
+    width: 20px;
+    height: 20px;
+    background-color: #3498db;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.folder-name {
+    font-size: 18px;
+    color: #333;
+    flex-grow: 1;
+    
+}
+.delete-button {
+    background-color: #1f0d0b;
+    color: #fff;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 10px;
+    
+}
+.file {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;    
+    border-bottom: 1px solid #ccc;
+}
+.file-icon {
+    width: 20px;
+    height: 20px;
+    background-color: #27ae60;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.file-name {
+    font-size: 18px;
+    color: #333;
+    flex-grow: 1;
+}
+.navigation {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.cargar {
+    background-color: #f9f9f9;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.btn {
+    background-color: #3498db;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#inicio{
+    cursor: pointer;
+}
